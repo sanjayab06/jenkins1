@@ -1,7 +1,7 @@
 node {
     stage('prepare')
     {
-       // echo "downloading from github"
+       echo "downloading from github"
     }
     stage('build')
     {
